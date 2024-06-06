@@ -14,13 +14,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      $primary-color;
-// $gameday-sky: #109dc0;
-$clemson-purple:      $header-color;
-$clemson-orange:      $accent-color;
-
+$text-color:       #333; // Change to a darker color
+$background-color: #ffffff; // Change to white
+$brand-color:      #ff6600; // Example: Orange for brand color
+$header-color:     #4CAF50; // Example: Green for header
+$accent-color:     #f44336; // Example: Red for accents
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
