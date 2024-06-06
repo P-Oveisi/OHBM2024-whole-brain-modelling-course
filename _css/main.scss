@@ -58,6 +58,20 @@ $on-laptop:        950px;
 	    "fancy-image"
 ;
 
+/* Add the new styles for centering the table */
+.schedule-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.schedule-table {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto;
+}
 /* Add the new styles for the profile container */
 .profile-container {
     display: flex;
