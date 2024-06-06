@@ -14,13 +14,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      $primary-color;
-// $gameday-sky: #109dc0;
-$clemson-purple:      $header-color;
-$clemson-orange:      $accent-color;
-
+$text-color:       #333; // Change to a darker color
+$background-color: #ffffff; // Change to white
+$brand-color:      #ff6600; // Example: Orange for brand color
+$header-color:     #4CAF50; // Example: Green for header
+$accent-color:     #f44336; // Example: Red for accents
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -60,3 +58,35 @@ $on-laptop:        950px;
 	    "fancy-image"
 ;
 
+/* Add the new styles for the profile container */
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-pic-gallary {
+    flex: 1 1 45%; /* Adjust the width as needed */
+    margin: 10px;
+}
+
+.image--cover-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image--cover {
+    border-radius: 50%;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    object-fit: cover;
+}
+
+.contacts {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts li {
+    margin-bottom: 10px;
+}
